@@ -15,7 +15,7 @@ Package.onUse(function (api) {
 
     // custom meteor specific cache adapter
     api.imply('mongo', 'server')
-    api.use("fongandrew:find-and-modify", "server")
+    api.use("fongandrew:find-and-modify@0.1.2", "server")
     api.add_files("eveonlineapi-mongocache.js", "server")
 
     // expose eve api in server side
